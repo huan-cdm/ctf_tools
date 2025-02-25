@@ -1,0 +1,701 @@
+; ARCHPR/APDFPR language file
+; ===========================
+;
+; Blank lines and lines started with semicolon are ignored
+;
+; \r means carriage return
+; \n means line feed
+;
+; However, don't use these formating characters if original string doesn't
+; use it
+;
+; Special fields look like %FIELD_NAME% (please keep as is)
+
+PROG_NAME=
+PROG_FULLNAME=
+PROG_VER=
+ASAVE_FILE=
+LOGFILE=
+LANGFILE_VERSION=
+
+PROG_EXTU=
+PROG_EXT=
+PROG_NAME_EXT=
+UNREG_MAX=
+
+;
+; File information
+; Your name (if you're wish) and your language name define here
+;
+TRANSLATOR=ElcomSoft Co.Ltd.
+LANGUAGE=English
+
+;
+; You can define national characters to use with dictionary-based attack:
+; smart mutations & all possible upper/lowercase combinations
+; First, define non-Latin capital letters
+FOREIGNCAPS=
+; and then define non-Latin small letters (in the same order
+; as capitals!)
+FOREIGNSMALL=
+; if your language doesn't use non-Latin characters, (or characters
+; can be only in upper or lowercase), leave these fields empty.
+
+; New field added at January, 7, 2000
+; This field used with dictionary-based attack/smart mutations to
+; make word "elite", i.e. vowels in lower case, other letters in upper
+; (for example, "password" becomes "PaSSWoRD")
+; This field contains only vowels (which also defined in FOREIGNCAPS field)
+FOREIGNVOWEL=
+
+;----------------------------------------------------------------------------;
+; AZPR messages                                                              ;
+;----------------------------------------------------------------------------;
+
+; Password range messages
+10=Analysing password range...
+11=Invalid minimal password length. It does not match the starting password. Minimal length has been adjusted.
+
+; Starting password messages
+12=Analysing starting password...
+13=Starting from password
+14=Last password:
+
+; Password length messages
+15=Password length =
+16=passwords to do:
+
+; Mask messages
+17=Number of not-masked symbols =
+
+; Dictionary messages
+18=Starting dictionary attack...
+
+; Registration messages
+20=is now registered !
+;21=launched, registered version
+21=launched
+22=launched, unregistered version, some features disabled
+23=%PROG_NAME% version %PROG_VER% - Registered
+24=%PROG_NAME% version %PROG_VER% - Not registered
+
+; Autobackup messages
+30=Performing autobackup...
+31=Auto-save directory not defined. Using path:
+32=Auto-save path is invalid
+33=Please select an auto-save folder
+34=Auto-save path selection cancelled. Auto-save now disabled
+35=Auto-save path is invalid or is not selected. Disable auto-save ?
+36=Auto-save file not defined. Using '%ASAVE_FILE%' file
+
+; Interface messages
+40=-  Untitled
+41=Do you want to save your project before quitting ?
+42=shutdown
+43=Trying to open source file
+44=File
+45=successfully opened
+
+; Project Messages
+50=New project created
+
+; Result messages
+60=Password successfully recovered !
+61=Encryption keys successfully recovered !
+62=is a valid password for this file
+
+; Button captions
+70=Open
+71=Save
+72=Start !
+73=Stop
+74=Charset
+75=Benchmark
+76=Register
+77=Help
+78=About
+79=Quit
+
+; Button hints
+80=Create a new project
+81=Open project...
+82=Save project
+83=Start recovery
+84=Stop recovery
+85=Custom charset...
+86=Do speed-test
+87=Help contents
+88=About %PROG_NAME%
+89=Quit %PROG_NAME%
+
+90=Register your copy of %PROG_NAME%
+
+91=Load %PROG_EXTU%-file into the project...
+92=Select dictionary file...
+93=Select plain-text file...
+94=Select auto-save directory...
+95=Clear starting password
+96=Clear mask
+97=All latin + all digits + all special
+
+98=Clear "start from" field
+99=Search for password
+100=Decrypt %PROG_EXTU% archive using these keys
+101=Load encryption keys
+102=Clear start line
+
+; Interface captions
+110=Encrypted %PROG_EXTU%-file
+111=Dictionary options
+112=Dictionary file path:
+113=Password length options
+114=Minimal password length =
+115=Maximal password length =
+
+116=Type of attack
+117=Brute-force
+118=Mask
+119=Dictionary
+120=Plain-text
+
+121=Brute-force range options
+122=All printable
+123=Space
+124=All special symbols (!@...)
+125=All caps latin (A - Z)
+126=All small latin (a - z)
+127=All digits (0 - 9)
+128=User-defined
+129=Start from:
+130=Mask:
+131=Options
+132=Minimize to tray
+133=Enable logging to %LOGFILE%
+134=Make backup before file changing
+135=Prompt if project is changed
+136=Mask symbol:
+137=Auto-save
+138=Save project every
+139=minutes
+140=Priority options
+141=Background
+142=High
+143=Current password:
+144=Status window
+145=Progress indicator
+146=character(s)
+147=Smart mutations
+148=Try all possible upper/lower case combinations
+149=Auto-save file name:
+150=Auto-save directory:
+151=Average speed:
+152=Time elapsed:
+153=Time remaining:
+154=Password length =
+155=total:
+156=processed:
+157=Dictionary attack in progress, processed
+158=password(s)
+159=Progress bar update interval
+160=ms
+161=Start line #
+162=Plain-text options
+163=Plain-text file path:
+164=Key0:
+165=Key1:
+166=Key2:
+
+; Pagecontrol captions
+170=Range
+171=Length
+172=Dictionary
+173=Plain-text
+174=Auto-save
+175=Options
+
+; Statistics messages
+180=Total passwords
+181=Total time
+182=Average speed (passwords per second)
+183=Password for this file
+184=Password in HEX
+185=Not found
+186=%PROG_FULLNAME% statistics:
+187=Copy password to the Clipboard
+188=Copy HEX password to the Clipboard
+189=Save...
+190=Save password to file
+191=OK
+192=More than one year
+
+193=n/a
+194=Encryption keys
+195=Copy encryption keys to the Clipboard
+196=Save encryption keys to file
+
+; User charset captions
+200=User defined charset
+201=Define your charset
+202=Load charset...
+203=Save charset...
+204=Clear charset
+205=Add charset from file...
+206=OK
+207=Cancel
+208=Convert to OEM encoding
+
+; About box captions
+210=About
+211=version %PROG_VER%
+213=Open %PROG_NAME% WWW-page
+214=Open Password Recovery Software WWW-page
+215=Open Elcom Software WWW-page
+
+; Plaintext progress messages
+220=Plain-text attack is in progress,
+221=reducing number of keys
+222=searching for keys
+223=trying to retrieve any password (up to 9 symbols long)
+224=trying to retrieve printable password (up to 10 characters long)
+
+230=%PROG_NAME% %PROG_VER%. Task finished.
+231=%PROG_NAME%
+232=Unregistered %PROG_NAME% can recover passwords up to %UNREG_MAX% characters long only
+233=Archive successfully decrypted.
+234=Archive decryption error.
+235=Decryption keys are shown in registered version only.
+236=The password has been found, but it's length exceeds evaluation version limitation.
+237=Only first file from archive will be decrypted.
+
+240=No matching files in selected archives. If you'd like to run plaintext\r\nattack using only part of the file, please modify the archives so\r\neach of them will contain one file only.
+241=No matching files in selected archives. Would you like to run the\r\nplaintext attack using only part of the file?
+242=Plain-text attack status cannot be saved.\r\nDo you really want to stop it?
+243=Plain-text attack started
+
+; Benchmark messages
+250=Sorry, the benchmark is available for brute-force and brute-force\r\nwith mask attacks only.
+251=Benchmarking ...
+252=Passwords to process
+253=Work time
+
+;
+; Error messages
+;
+
+; Brute-force
+300=Invalid password range or range not defined
+301=Invalid starting password, it does not match a selected range
+302=Maximum length must be greater than minimum length
+303=Password not found
+
+; Dictionary
+304=Error opening dictionary file
+305=Start line exceeds dictionary size
+
+; Common
+310=Can not save to selected file
+311=%PROG_NAME% Error
+312=Terminated by user
+313=Auto-save path is not selected
+314=Invalid progress bar update interval
+315=Can not open this project file
+
+; Archive's open errors
+320=Can not open %PROG_EXTU% archive
+321=Selected file is not a %PROG_EXTU% archive
+322=Archive corrupted or no encrypted files
+323=Cashing error
+324=Fatal exception
+
+; Quit message
+330=Quit
+
+; Mask errors
+340=Mask not set
+341=No mask symbols found
+342=Mask does not match a starting password
+343=Mask symbol not defined
+
+; Plaintext errors
+350=Encryption keys not found
+351=Selected archive contains encrypted files only.
+352=Not enough data for plaintext attack.
+353=Plaintext attack internal error.
+354=Invalid value.
+
+;---------------------------------------
+; New message added at December, 14 1999
+
+; Registration messages
+360=Registration
+361=Enter registration code:
+362=Thank you for registering %PROG_NAME%!
+363=The code you've entered is invalid!
+
+; Dialog headers
+370=Benchmark result
+
+; Partial plain-text attack dialog
+371=Attack using only part of the file
+372=Enter size of plain-text:
+
+; Error message used with different previously defined error messages
+380=Error:
+
+; When selecting language from options menu
+390=Language:
+
+; These message (maybe) will be used with plain-text & dictionary attack
+; %d means a number inserted by program (as in C programming language)
+400=cycle %d of %d
+401=line %d of %d
+
+; Open filters, | means delimiter
+410=Charset files (*.chr)|*.chr|All files (*.*)|*.*
+411=%PROG_NAME% status files (*.%PROG_NAME_EXT%)|*.%PROG_NAME_EXT%|All files (*.*)|*.*
+412=%PROG_EXTU% files (*.%PROG_EXT%)|*.%PROG_EXT%|SFX-%PROG_EXTU% files (*.exe)|*.exe|All files (*.*)|*.*
+413=Dictionary files (*.dic)|*.dic|Text files (*.txt)|*.txt|All files (*.*)|*.*
+414=%PROG_EXTU% files (*.%PROG_EXT%)|*.%PROG_EXT%|All files (*.*)|*.*
+415=Text files (*.txt)|*.txt|All files (*.*)|*.*
+
+;--------------------------------------
+; New messages added at January, 7 2000
+; Command line messages
+420=Incorrect command line
+421=The file is not a password-protected %PROG_EXTU%-archive or status file
+
+; Question after plaintext attack if we aren't got a password
+430=The password not found. Do you want to decrypt archive now?
+
+431=Mask length exceeds unregistered version limits
+
+; When user drag'n'dropped several files:
+432=%PROG_NAME% can accept only one file at once
+
+;---------------------------------------
+; New messages added at Januany, 17 2000
+; (will be used in later versions)
+
+; Plain-text with binary (not a archive) file (also used msgs 371-372)
+440=Allow using binary file as a plain-text %PROG_EXTU% archive
+441=Enter data offset:
+
+;---------------------------------------
+; New messages added at March, 3 2000
+;---------------------------------------
+450=Update
+451=Check for %PROG_NAME% updates in the Internet
+452=The program is going to connect to ElcomSoft web site to get information\r\nabout the most recent version of %PROG_NAME%. Nothing will be sent to ElcomSoft\r\n(even your current version number). Make sure that you're online, and\r\npress "OK"; or "Cancel" to decline.
+453=Please, wait
+454=Connecting to ElcomSoft web site...
+455=Cannot retrieve current version info
+456=WININET.DLL is not installed
+457=Connection cancelled
+458=Cannot connect to website
+459=You have newest version of %PROG_NAME%
+460=Update is available, newest version is %s.\r\nYou can download it from %s.
+
+; New "About" dialog messages
+470=Product News:
+471=Frequently Asked Questions:
+472=Password Recovery Software:
+473=Send Feedback:
+474=ElcomSoft Home Page:
+
+480=Help
+
+; Advanced plaintext configuration dialog messages
+; (This feature will be implemented in future versions of AZPR)
+490=Invoke advanced plaintext configuration dialog
+491=Advanced plaintext configuration
+492=Encrypted file
+493=Select encrypted file...
+494=Plaintext file
+495=Select plaintext file...
+496=Binary data
+497=Archive contents
+498=Data size:
+499=Data offset:
+500=Link matching files in archives
+501=Start from:
+502=Clear 'start from' field
+503='Start from' field contains invalid value.\r\nClear it and run the attack again.
+
+; next line starts from lowercase letter 'cause it used (or will be used)
+; in the middle of the phrase...
+510=version
+
+520=RSA key file not found
+521=RSA key file corrupted
+522=RSA key file invalid
+
+; new for 3.50
+530=Advanced
+531=Advanced options
+532=Use known start of the file for stored archives (hex)
+533=Always use WinZIP optimized attack engine if probability is greater than
+534=Known bytes:
+535=This archive has been created with WinZIP with a probability of %d%%.\r\nDo you want to use WinZIP optimized attack engine?
+536=The "known bytes" field is invalid. Please correct it and run the attack again\r\n(Bytes should follow one by one without empty fields, in a hex form).
+; status window messages
+537=Using known start of the file.
+538=Using winzip optimized attack engine.
+
+540=This archive has been created with %PROG_EXTU% version which is not supported by %PROG_NAME% (yet).
+541=Testing dictionary
+
+550=End at:
+551=Clear ending password
+552=Ending password length does not match maximum password length
+553=Invalid ending password, it does not match a selected range
+554=Mask does not match an ending password
+555=Cannot run the attack.\r\nStarting password greater then or equal to ending password.
+556=Attack stopped at password '%s'.
+
+; New messages at 14.11.2000
+560=Plain-text attack is not applicable for ACE & RAR archives
+561=To perform plain-text attack you're need to use archives of the same type
+
+; New messages at 18.01.2000
+565=Cannot perform attack: unknown compression method
+566=Warning: deflate64 compression
+
+; Messages for PDF 24.01.2000
+570=Search for
+571=User password
+572=Owner password
+573=Any password
+574=User
+575=Owner
+576=Cannot open document
+577=This is not a %PROG_EXTU% document
+578=This document is not encrypted
+579=Wrong encryption handler\r\n(This protection method is not supported yet)
+580=User password is empty so instant decryption possible.
+581=Owner password is empty so instant decryption possible.
+582=Do you want to start the attack anyway?
+583=Decrypt this document
+584=Document successfully decrypted.
+585=Document decryption error.
+586=Enter password for decryption
+587=The password you've typed is incorrect
+588=Cannot retrieve document key!
+589=This document has been created with FileOpen utility.
+590=Evalution version of %PROG_NAME% cannot decrypt documents larger then 64Kb.
+591=Decrypt now
+592=Start the attack
+593=Do you want to decrypt it now?
+594=Use MMX instructions
+595=This document has been protected with Rot13 handler.
+
+600=Key search
+601=Key search options
+602=Decrypt document using this key
+603=Document key:
+604=Key search attack is not applicable for this document
+605='Start from' value is incorrect.
+606=Starting key search attack...
+607='End at' value is incorrect.
+608=The key for this document has been found.
+609=Encryption key
+610=Copy encryption key into the clipboard
+611=Save encryption key into the file
+612=Encryption key successfully recovered !
+613=Key search is in progress, processed %s of %s keys
+614=Invalid key for this document.
+615=Use multi-processor code
+616=Start from block:
+617=End at block:
+618=(Max value = 65535)
+619=Current block:
+
+630=Use guaranteed recovery for WinZIP archives instead of plain-text
+631=Starting Guaranteed WinZip Recovery...
+632=WinZip Recovery is in progress,
+633=stage %d/%d
+634=try #
+636=Guaranteed WinZip Recovery
+637=Note: that file has been created with WinZip; you can select "Guaranteed WinZip Recovery" to decrypt the file in a matter of minutes (sometimes a few hours) regardless of the password length and complexity.
+638=Sorry, Guaranteed WinZip Recovery is not available for this file. See Help file for details.
+639=Guaranteed WinZip Recovery status cannot be saved. Do you really want to stop it?
+
+650=Starting brute-force attack...
+651=Starting mask attack...
+652=File "%s" opened.
+
+660=WARNING: only %d of %d page(s) decrypted due to demo limitations.
+661=%d format error(s) ignored during decryption. Output file could be incomplete.
+662=Document decryption error %d.
+663=Handler: %s.
+664=unknown handler
+665=This document was created with '%s' encryption handler.\r\nThis protection method is not supported.
+666=Cannot open document, error %d
+
+667=Total keys
+668=Average speed (keys per second)
+
+670=Use code optimized for
+671=Non-MMX processors
+672=Intel PII/PIII/Celeron
+673=AMD Athlon
+
+; 15/07/2002
+680=Password from keys
+681=Starting 'password from keys' attack...
+682=At least one key value is invalid (check out 'Plain-text' tab).
+683=Keys: [ %08x %08x %08x ]
+684=First six symbols of 'start from' password don't matter for this attack.
+685=is a valid password for these keys
+686=This attack is available in registered version of %PROG_NAME% only!
+687=WZ_Stage%d: trying %02x
+688=GUAWZ: special case has been found. The attack may be not successful, see Help file for details.
+689=Note that archives created with Winzip 8.1 and higher are invulnerable for this attack.
+
+; 18/07/2002
+690=Intel P4 SSE2
+691=Selected instructions set cannot be used on current processor.
+
+; 23/07/2002
+692=Support for ACE 2.0 archives has been removed.\r\nMore details in help file.
+693=Unknown error (file opening). Please contact to technical support.
+
+; 20/02/2002
+694=Not enough memory
+695=%PROG_NAME% doesn't support multi-volume archives.
+
+622=Document decryption error #%d.
+
+; 18/05/2004
+696=Use affinity mask
+697=Key for this file
+
+700=Order Full Version
+701=Enter Registration Code
+702=Cancel
+703=%PROG_NAME% Order
+704=You can purchase the Full Version of %PROG_NAME% right now, online or offline -- simply click the "Order Full Version" button.\r\nDelivery is done by sending you the registration code (that converts trial version into the fully-functional one) via email immediatelly after your payment is received and verified -- for online payments with a credit card it usually takes just a few minutes. We accept all major Credit Cards (online, by phone or fax), purchase orders, checks and wire transfers. The ordering page is on a secure server, ensuring that your confidential information remains confidential.
+705=The feature you've selected is not available in the Trial Version of %PROG_NAME%.
+706=The password length you've selected does not meet the Trial Version limitations.
+707=All restrictions have been removed.\r\nWARNING: due to trial version limitations, only %d of %d page(s) have been written to output file.\r\nPlease purchase the full version to decrypt the whole document.
+
+; 28/03/2005
+708=You're using a free trial version of %PROG_NAME%, which has some limitations (see help file for details). If you already tested %PROG_NAME% so you're sure it works on your file(s), press "%s" to place your order. If your order has been already processed and you have got the registration code, press "%s" button to convert this trial version into fully-functional one.
+709=All restrictions have been removed.\r\nWARNING: due to trial version limitations, only %d of %d page(s) have been written to output file.
+710=Sorry, cannot show .chm help files at this machine
+
+; 19/09/2005
+711=Plain-text attack is not applicable for this file
+
+; 28/12/2005
+712=This archive has been created with ZIP version that is supported only in ARCHPR (Advanced Archive Password Recovery), but not in AZPR.
+713=More info
+
+; 07/02/2007
+720=&File
+721=&Open File
+722=Open &Project
+723=&Save Project
+724=Save Project &as ...
+725=E&xit
+726=&Recovery
+727=&Start
+728=S&top
+729=&Help
+730=&Help contents
+731=&Support
+732=%PROG_NAME% in the &Internet
+733=&Frequently Asked Questions
+734=Report a &bug
+735=Suggest a &feature
+736=Other support &options
+737=Check for &updates
+738=Get &full version
+739=&Upgrade
+740=&About
+741=All supported files (*.%PROG_EXT%, *.%PROG_NAME_EXT%)|*.%PROG_EXT%;*.%PROG_NAME_EXT%|%PROG_EXTU% files (*.%PROG_EXT%)|*.%PROG_EXT%|%PROG_NAME% status files (*.%PROG_NAME_EXT%)|*.%PROG_NAME_EXT%|All files (*.*)|*.*
+
+742=Use pre-computed hash tables
+743=Select user hashes directory ...
+744=Purchase
+745=Upgrade
+746=Purchase %PROG_NAME%
+747=Upgrade %PROG_NAME%
+748=Current status of attack cannot be saved. Do you really want to stop it?
+749=Starting rainbow attack ...
+750=Locating and loading rainbow tables ...
+751=Cannot find rainbow tables at this path
+752=Rainbow tables search is in progress ...
+753=Filename is not specified.
+754=Cannot find file.
+755=Enter registration code ...
+756=WARNING: only %d of %d page(s) decrypted due to license limitations.
+757=Cannot load RegDLL!
+758=Decrypting ...
+759=Processing page %d of %d
+760=Processing object %d of %d
+761=Please select pre-computes hash tables folder
+
+; 29/05/07
+762=New version - %s is available for download.\nDo you want to go to ElcomSoft website and download it ?
+
+; 09/08/07
+770=Analyzing command line...
+771=Source path is: 
+772=Trying to decrypt file '%s' to '%s'...
+773=Batch processing successfully finished
+774=Backup copies of files will be created
+775=All files will be converted without backup copies
+776=You will be prompted for password if necessary
+777=Files with incorrect password will be ignored
+778=Batch processing initiated from command line
+779=Cannot create backup copy of file. File skipped.
+780=Entered password is valid for this file
+781=Password '%s' will be used for decryption
+782=Source path not found
+783=Destination path must be specified for this operation
+784=Error reading list file
+785=Invalid destination path
+786=Batch processing terminated by user
+787=Command line options are available in registered version only
+788=Log file is: %s
+789=Cannot decrypt documents with non-standard filter
+790=Error %d while decrypting: %s
+791=No valid password for this file. Skipped.
+792=Cannot remove read only attribute from file.
+793=Document successfully decrypted.
+794=Document is not encrypted.
+
+; 25/09/07
+795=Rainbow attack failed, error %d
+796=Rainbow tables search is in progress, phase 2...
+
+; 10/10/07
+797=Start attack on file select
+798=This document contains some objects that can be purged off. Please select ones that you want to remove:
+799=JS
+800=Signatures
+801=Forms
+802=This document uses strong encryption, and so the password cannot be recovered instantly. If you know the password, please type it below (the program will decrypt the file, removing the password and all restrictions, if any); otherwise, select appropriate attack options and press "Start recovery" button.
+803=*Note: this document can be decrypted with "Key search" attack (guaranteed).
+804=Start recovery
+805=Password:
+
+; 23/01/08
+674=Intel Core/Core2
+806=Validating password...
+807=Cannot stop attack right now, please wait a bit...
+
+; 09/04/08
+808=It is strongly not recommended to use hash tabled directly from DVD\r\nbecause of its poor performance. We advise you to move the data\r\nfrom DVD to USB flash drive, or at least to hard disk. See the\r\nprogram manual for more details.
+809=Password required to decrypt
+
+; 15/10/08
+810=Decrypting, %d%% done
+811=Aborted by user
+812=Abort
+
+; 24/11/08
+813=Error [ %d %s] during PDF SMP/GPU attack
+814=GPU Manager
+
+; End of message file

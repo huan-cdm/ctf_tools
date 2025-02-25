@@ -1,0 +1,707 @@
+; ARCHPR/APDFPR language file
+; ===========================
+;
+; Blank lines and lines started with semicolon are ignored
+;
+; \r means carriage return
+; \n means line feed
+;
+; However, don't use these formating characters if original string doesn't
+; use it
+;
+; Special fields look like %FIELD_NAME% (please keep as is)
+
+PROG_NAME=
+PROG_FULLNAME=
+PROG_VER=
+ASAVE_FILE=
+LOGFILE=
+LANGFILE_VERSION=
+
+PROG_EXTU=
+PROG_EXT=
+PROG_NAME_EXT=
+UNREG_MAX=
+
+;
+; File information
+; Your name (if you're wish) and your language name define here
+;
+TRANSLATOR=Olga Koksharova
+LANGUAGE=Deutsch
+CODEPAGE=1250
+
+;
+; You can define national characters to use with dictionary-based attack:
+; smart mutations & all possible upper/lowercase combinations
+; First, define non-Latin capital letters
+FOREIGNCAPS=ÄÖÜ
+; and then define non-Latin small letters (in the same order
+; as capitals!)
+FOREIGNSMALL=äöü
+; if your language doesn't use non-Latin characters, (or characters
+; can be only in upper or lowercase), leave these fields empty.
+
+; New field added at January, 7, 2000
+; This field used with dictionary-based attack/smart mutations to
+; make word "elite", i.e. vowels in lower case, other letters in upper
+; (for example, "password" becomes "PaSSWoRD")
+; This field contains only vowels (which also defined in FOREIGNCAPS field)
+FOREIGNVOWEL=
+
+;----------------------------------------------------------------------------;
+; AZPR messages                                                              ;
+;----------------------------------------------------------------------------;
+
+;
+; Program full name
+;
+1=%PROG_NAME% %PROG_VER% build %PROG_BUILD%
+
+; Password range messages
+10=Analysiere Passwortbereich...
+11=Ungültige minimale Passwortlänge. Sie stimmt nicht mit dem Startpasswort überein. Die minimale Länge wurde angepasst.
+
+; Starting password messages
+12=Analysiere Startpasswort...
+13=Starte von Passwort
+14=Letztes Passwort:
+
+; Password length messages
+15=Passwortlänge =
+16=Passwörter zu prüfen:
+
+; Mask messages
+17=Anzahl von nicht maskierten Symbolen =
+
+; Dictionary messages
+18=Starte Wörterbuchangriff...
+
+; Registration messages
+20=ist jetzt registriert!
+21=gestartet, registrierte Version
+22=gestartet, unregistrierte Version, einige Funktionen sind deaktiviert
+23=%PROG_NAME% Version %PROG_VER% - Registriert
+24=%PROG_NAME% Version %PROG_VER% - Nicht registriert
+
+; Autobackup messages
+30=Führe Autobackup durch...
+31=Auto-Speichern-Ordner nicht definiert. Benutze Pfad:
+32=Auto-Speichern-Pfad ist ungültig
+33=Bitte wählen Sie einen Auto-Speichern Ordner
+34=Die Auswahl des Auto-Speichern-Pfads wurde abgebrochen. Auto-Speichern ist nun deaktiviert
+35=Der Auto-Speichern-Pfad ist ungültig oder nicht ausgewählt. Auto-Speichern deaktivieren?
+36=Die Auto-Speichern-Datei ist nicht definiert. Benutze '%ASAVE_FILE%' Datei
+
+; Interface messages
+40=- Ohne Titel
+41=Möchten Sie Ihr Projekt vor dem Schließen speichern?
+42=Shutdown
+43=Versuche die Quelldatei zu öffnen 
+44=Datei
+45=erfolgreich geöffnet
+
+; Project Messages
+50=Neues Projekt erstellt
+
+; Result messages
+60=Passwort erfolgreich gefunden!
+61=Kodierschlüssel erfolgreich gefunden!
+62=ist ein gültiges Passwort für diese Datei 
+
+; Button captions
+70=Öffnen
+71=Speichern
+72=Start !
+73=Stop
+74=Zeichensatz
+75=Benchmark
+76=Registrieren
+77=Hilfe
+78=Über
+79=Beenden
+
+; Button hints
+80=Erstelle neues Projekt
+81=Öffne Projekt...
+82=Projekt speichern
+83=Wiederherstellung starten
+84=Wiederherstellung stoppen
+85=Benutzerdefinierter Zeichensatz...
+86=Einen Benchmark durchführen
+87=Hilfethemen
+88=Über %PROG_NAME%
+89=%PROG_NAME% beenden
+
+90=Registrieren Sie Ihre Kopie von %PROG_NAME%
+
+91=Lade %PROG_EXTU%-Datei ins Projekt...
+92=Wörterbuchdatei auswählen...
+93=Klartextdatei auswählen...
+94=Auto-Speichern-Ordner auswählen...
+95=Lösche Startpasswort
+96=Lösche Maske
+97=Alle lateinischen Buchstaben + alle Ziffern + alle Sonderzeichen
+
+98=Lösche "Starte von" Feld
+99=Suche Passwort
+100=Dekodiere %PROG_EXTU% Archiv mit diesen Schlüsseln
+101=Lade Kodierschlüssel
+102=Lösche Startzeile
+
+; Interface captions
+110=Kodierte %PROG_EXTU%-Datei
+111=Wörterbuch-Optionen
+112=Wörterbuchdatei-Pfad:
+113=Passwortlänge-Optionen
+114=Minimale Passwortlänge =
+115=Maximale Passwortlänge =
+
+116=Art des Angriffs
+117=Brute-Force
+118=Maske
+119=Wörterbuch
+120=Klartext
+
+121=Brute-Force-Optionen
+122=Alle druckbaren
+123=Leerzeichen
+124=Alle Sonderzeichen (!@...)
+125=Alle latein. Grossbuchstaben (A - Z)
+126=Alle latein. Kleinbuchstaben (a - z)
+127=Alle Ziffern (0 - 9)
+128=Benutzerdefiniert
+129=Starte von:
+130=Maske:
+131=Optionen
+132=In den Tray minimieren
+133=Logging in %LOGFILE% aktivieren
+134=Erstelle Backup bevor die Datei verändert wird
+135=Hinweisen wenn das Projekt geändert wird
+136=Masken-Symbol:
+137=Auto-Speichern
+138=Speichere Projekt alle
+139=Minuten
+140=Priorität-Optionen
+141=Hintergrund
+142=Hoch
+143=Aktuelles Passwort:
+144=Statusfenster
+145=Fortschrittsanzeige
+146=Schriftzeichen
+147=Kluge Mutationen
+148=Versuche alle möglichen Gross-/Kleinschreibungskombinationen
+149=Auto-Sp.-Datei:
+150=Auto-Speichern-Ordner:
+151=Geschwindigkeit:
+152=Vergangene Zeit:
+153=Restliche Zeit:
+154=Passwortlänge =
+155=Gesamt:
+156=Verarbeitet:
+157=Wörterbuchangriff im Verlauf, 
+158=Passwörter verarbeitet
+159=Fortschrittsbalken Aktualisierungsintervall
+160=ms
+161=Startzeile #
+162=Klartext-Optionen
+163=Klartextdatei Pfad:
+164=Key0:
+165=Key1:
+166=Key2:
+
+; Pagecontrol captions
+170=Bereich
+171=Länge
+172=Wörterbuch
+173=Klartext
+174=Auto-Speichern
+175=Optionen
+
+; Statistics messages
+180=Gesamte Passwörter
+181=Gesamte Zeit
+182=Durchschnittsgeschwindigkeit (Passwörter pro Sekunde)
+183=Passwort für diese Datei
+184=Passwort in HEX
+185=Nicht gefunden
+186=%PROG_FULLNAME% Statistik:
+187=Kopiere Passwort in die Zwischenablage
+188=Kopiere HEX Passwort in die Zwischenablage
+189=Speichern...
+190=Passwort in Datei speichern
+191=OK
+192=Mehr als ein Jahr
+
+193=n/a
+194=Kodierschlüssel
+195=Kopiere Kodierschlüssel in die Zwischenablage
+196=Kodierschlüssel in Datei speichern
+
+; User charset captions
+200=Benutzerdefinierter Zeichensatz
+201=Zeichensatz definieren
+202=Zeichensatz laden...
+203=Zeichensatz speichern...
+204=Zeichensatz löschen
+205=Zeichensatz aus Datei einfügen...
+206=OK
+207=Abbrechen
+208=Konvertiere zur OEM Kodierung
+
+; About box captions
+210=Über
+211=Version %PROG_VER%
+;212=(c) 1999 Vladimir Katalov, Andy Malyshev & Ivan Golubev, Elcom Ltd.
+213=Öffne %PROG_NAME% WWW-Page
+214=Öffne Password Recovery Software WWW-Page
+215=Öffne Elcom Software WWW-Page
+
+; Plaintext progress messages
+220=Klartext Angriff ist im Verlauf,
+221=reduziere die Anzahl der Schlüssel
+222=suche nach Schlüsseln
+223=versuche irgendein Passwort wiederherzustellen (bis zu 9 Symbole lang)
+224=versuche druckbares Passwort wiederherzustellen (bis zu 10 Buchstaben lang)
+
+230=%PROG_NAME% %PROG_VER%. Aufgabe beendet.
+231=%PROG_NAME%
+232=Unregistriertes %PROG_NAME% kann nur Passwörter bis zu %UNREG_MAX% Buchstaben wiederherstellen
+233=Archiv erfolgreich dekodiert.
+234=Archiv Dekodierungsfehler.
+235=Dekodierungsschlüssel werden nur in der registrierten Version angezeigt.
+236=Das Passwort wurde gefunden, aber dessen Länge übersteigt die Begrenzung der Evaluationsversion.
+237=Nur die erste Datei aus dem Archiv wird dekodiert.
+
+240=Keine passenden Dateien in den ausgewählten Archiven. Wenn Sie den Klartext Angriff nur mit\r\neinem Teil der Datei durchführen möchten, ändern Sie bitte die Archive, so\r\ndass jedes nur eine Datei enthält.
+241=Keine passenden Dateien in den ausgewählten Archiven. Möchten Sie, dass der\r\nKlartext Angriff nur einen Teil der Datei nutzt?
+242=Der Klartext Angriff Status kann nicht gespeichert werden.\r\nMöchten Sie ihn wirklich stoppen?
+243=Klartext Angriff gestartet
+
+; Benchmark messages
+250=Sorry, der Benchmark ist nur verfügbar für Brute-Force Angriffe\r\nund Brute-Force Angriffe mit Maske.
+251=Benchmarking ...
+252=Zu verarbeitende Passwörter
+253=Arbeitszeit
+
+;
+; Error messages
+;
+
+; Brute-force
+300=Ungültiger Passwortbereich oder Bereich nicht definiert
+301=Ungültiges Startpasswort, es passt nicht zum ausgewählten Bereich
+302=Maximale Länge muss größer sein als minimale Länge
+303=Passwort nicht gefunden
+
+; Dictionary
+304=Fehler beim Öffnen des Wörterbuchs
+305=Startzeile übersteigt Wörterbuchgröße
+
+; Common
+310=Kann nicht in die gewählte Datei speichern
+311=%PROG_NAME% Fehler
+312=Vom Benutzer abgebrochen
+313=Auto-Speichern-Pfad ist nicht ausgewählt
+314=Ungültiger Fortschrittsbalken Aktualisierungsintervall
+315=Kann diese Projektdatei nicht öffnen
+
+; zip errors
+320=%PROG_EXTU% Archiv kann nicht geöffnet werden
+321=Ausgewählte Datei ist kein %PROG_EXTU% Archiv
+322=Archiv defekt oder keine verschlüsselten Daten
+323=Cashing Fehler
+324=Schwerer Ausnahmefehler
+
+; Quit message
+330=Beenden
+
+; Mask errors
+340=Maske nicht eingestellt 
+341=Keine Masken-Symbole gefunden
+342=Maske entspricht keinem Startpasswort
+343=Masken-Symbol nicht definiert
+
+; Plaintext errors
+350=Kodierschlüssel nicht gefunden
+351=Ausgewähltes Archiv enthält nur kodierte Daten.
+352=Nicht genug Daten für Klartext Angriff.
+353=Interner Klartext Angriff Fehler.
+354=Ungültiger Wert.
+
+;---------------------------------------
+; New message added at December, 14 1999
+
+; Registration messages
+360=Registrierung
+361=Registrierungsnummer eingeben:
+362=Danke für Ihre Registrierung von %PROG_NAME%!
+363=Die von Ihnen eingegebene Nummer ist falsch!
+
+; Dialog headers
+370=Benchmark Ergebnis
+
+; Partial plain-text attack dialog
+371=Angriff benutzt nur einen Teil der Datei
+372=Größe des Klartext eingeben:
+
+; Error message used with different previously defined error messages
+380=Fehler:
+
+; When selecting language from options menu
+390=Sprache:
+
+; These message (maybe) will be used with plain-text & dictionary attack
+; %d means a number inserted by program (as in C programming language)
+400=Zyklus %d von %d
+401=Zeile %d von %d
+
+; Open filters, | means delimiter
+410=Zeichensatz Dateien (*.chr)|*.chr|Alle Dateien (*.*)|*.*
+411=%PROG_NAME% Status Dateien (*.%PROG_NAME_EXT%)|*.%PROG_NAME_EXT%|Alle Dateien (*.*)|*.*
+412=%PROG_EXTU% Dateien (*.%PROG_EXT%)|*.%PROG_EXT%|SFX-%PROG_EXTU% Dateien (*.exe)|*.exe|Alle Dateien (*.*)|*.*
+413=Wörterbuchdateien (*.dic)|*.dic|Text Dateien (*.txt)|*.txt|Alle Dateien (*.*)|*.*
+414=%PROG_EXTU% Dateien (*.%PROG_EXT%)|*.%PROG_EXT%|Alle Dateien (*.*)|*.*
+415=Textdateien (*.txt)|*.txt|Alle Dateien (*.*)|*.*
+
+;--------------------------------------
+; New messages added at January, 7 2000
+; Command line messages
+420=Falsche Befehlzeile
+421=Die Datei ist kein passwortgeschütztes %PROG_EXTU%-Archiv oder Statusdatei
+
+; Question after plaintext attack if we haven't got a password
+430=Passwort wurde nicht gefunden. Möchten Sie das Archiv nun entschlüsseln?
+
+431=Die Maskenlänge übersteigt die Beschränkungen der unregistrierten Version
+
+; When user drag'n'dropped several files:
+432=%PROG_NAME% kann nur eine Datei auf einmal akzeptieren
+
+;---------------------------------------
+; New messages added at January, 17 2000
+; (will be used in later versions)
+
+; Plain-text with binary (no a zip archive) file (also used msgs 371-372)
+440=Binäre Datei als Klartext %PROG_EXTU% Archiv erlauben
+441=Daten Ausgleich eingeben
+
+;---------------------------------------
+; New messages added at March, 3 2000
+;---------------------------------------
+450=Update
+451=Prüfe auf %PROG_NAME% Updates im Internet
+452=Das Programm versucht Verbindung zur Elcom Webseite aufzunehmen, um Informationen\r\nüber die neueste Version von %PROG_NAME% zu bekommen. Es werden keine Informationen an Elcom gesendet\r\n(nicht mal Ihre aktuelle Versionsnummer). Vergewissern Sie sich, dass Sie Online sind und\r\ndrücken Sie "OK"; oder "Abbrechen" um abzulehnen.
+453=Bitte warten
+454=Verbindung zur Elcom Webseite...
+455=Kann Aktuelle Version Info nicht finden
+456=WININET.DLL ist nicht installiert
+457=Verbindung abgebrochen
+458=Kann keine Verbindung zur Webseite aufnehmen
+459=Sie haben bereits die neueste Version von %PROG_NAME%
+460=Update ist verfügbar, neueste Version %s.\r\nDownload von der %s.
+
+; New "About" dialog messages
+470=Produkt News:
+471=Häufig gestellte Fragen:
+472=Passwortrettung-Software:
+473=Feedback senden:
+474=Elcom Home Page:
+
+480=Hilfe
+
+; Advanced plaintext configuration dialog messages
+; (This feature will be implemented in future versions of AZPR)
+490=Aufruf von fortgeschrittenem Klartext Konfigurationsdialog
+491=Fortgeschrittene Klartext Konfiguration
+492=Kodierte Datei
+493=Kodierte Datei auswählen...
+494=Klartext Datei
+495=Klartext Datei auswählen...
+496=Binärdaten
+497=Archivinhalt
+498=Datengröße:
+499=Datenausgleich:
+500=Verknüpfung identischer Daten im Archiv
+501=Starte von:
+502=Lösche 'Starte von' Feld
+503=Das 'Starte von' Feld enthält einen ungültigen Wert.\r\nLöschen Sie es und starten Sie den Angriff erneut.
+
+; next line starts from lowercase letter 'cause it used (or will be used)
+; in the middle of the phrase...
+510=Version
+
+520=RSA Schlüsseldatei nicht gefunden
+521=RSA Schlüsseldatei fehlerhaft
+522=RSA Schlüsseldatei ungültig
+
+; new for 3.50
+530=Erweitert
+531=Erweiterte Optionen
+532=Bekannten Startpunkt der Datei für gespeicherte Archive benutzen (hexadezimal)
+533=WinZIP optimierten Angriff benutzen, wenn Wahrscheinlichkeit größer ist als
+534=Bekannte Bytes:
+535=Dieses Archiv wurde mit einer Wahrscheinlichkeit von %d%% mit WinZIP erstellt.\r\nMöchten Sie den WinZIP optimierten Agriff benutzen?
+536=Das "bekannte Bytes" Feld ist ungültig. Bitte korrigieren Sie es und starten Sie den Angriff erneut\r\n(Die Bytes sollten einander folgen, ohne leere Felder dazwischen, in hexadezimaler Form).
+; status window messages
+537=Benutze bekannten Startpunkt der Datei.
+538=Benutze WinZIP optimierten Angriff.
+
+540=Dieses Archive wurde mit einer %PROG_EXTU% Version erstellt, die von %PROG_NAME% (noch) nicht unterstützt wird.
+541=Teste Wörterbuch
+
+550=Ende bei:
+551=Lösche Endpasswort
+552=Die Länge des Endpassworts stimmt nicht mit der maximalen Passwortlänge überein
+553=Ungültiges Endpasswort, es stimmt nicht mit dem gewählten Bereich überein
+554=Maske simmt nicht mit dem Endpasswort überein
+555=Kann Angriff nicht starten.\r\nDas Startpasswort ist größer oder gleich dem Endpasswort.
+556=Angriff bei Passwort '%s' gestoppt.
+
+; New messages at 14.11.2000
+560=Der Klartext Angriff kann nicht auf ACE & RAR Archive angewendet werden
+561=Um einen Klartext Angriff durchzuführen müssen Sie Archive gleichen Typs verwenden
+
+; New messages at 18.01.2000
+565=Kann Angriff nicht durchführen: unbekannte Kompressionsmethode
+566=Warnung: deflate64 Kompression
+
+; Messages for PDF 24.01.2000
+570=Suche nach
+571=Nutzer-Passwort
+572=Besitzer-Passwort
+573=beliebiges Passwort
+574=Nutzer
+575=Besitzer
+576=Kann das Dokument nicht öffnen
+577=Das ist kein %PROG_EXTU% -Dokument
+578=Dieses Dokument ist nicht verschlüsselt
+579=Unbekannte Verschlüsselungsmethode\r\n(ist noch nicht unterstützt)
+580=Nutzer-Passwort ist leer, eine sofortige Entschlüsselung ist möglich.
+581=Besitzer-Passwort ist leer, eine sofortige Entschlüsselung ist möglich.
+582=Möchten Sie trotzdem eine Attacke starten?
+583=Dieses Dokument entschlüsseln
+584=Dokument wurde erfolgreich entschlüsselt.
+585=Fehler bei der Dokument-Entschlüsselung.
+586=Geben Sie das Passwort für die Entschlüsselung ein
+587=Das von Ihnen eingegebene Passwort ist ungültig
+588=Kann Dokumentschlüssel nicht wiederherstellen!
+589=Dieses Dokument wurde mit FileOpen erstellt.
+590=Testversion von %PROG_NAME% kann Dokumente größer als 64Kb nicht entschlüsseln.
+591=Jetzt entschlüsseln
+592=die Attacke starten
+593=Möchten Sie es jetzt entschlüsseln?
+594=Wenden Sie bitte MMX-Vorschriften an
+595=Dieses Dokument wurde mit Rot13 verschlüsselt.
+
+600=Schlüssel-Suche 
+601=Optionen für Schlüssel-Suche
+602=Dokument mit diesem Schlüssel dechiffrieren
+603=Schlüssel:
+604=Schlüssel-Suche-Attacke ist für diesem Dokument nicht verwendbar
+605='Starte von'-Wert ist ungültig.
+606=Schlüssel-Suche-Attacke ist begonnen...
+607='Ende auf'-Wert ist falsch.
+608=Der Dokument-Schlüssel wurde gefunden.
+609=Schlüssel
+610=Den Schlüssel in die Zwischenablage kopieren
+611=Den Schlüssel in die Datei speichern
+612=Der Schlüssel wurde erfolgreich wiederhergestellt!
+613=Schlüssel-Suche wird ausgeführt, %s aus %s Schlüssel sind bearbeitet
+614=Invalid key for this document.
+615=Mehrprozessor-Betrieb nutzen
+616=Starte vom Block:
+617=Ende auf Block:
+618=(Max. Wert = 65535)
+619=Aktueller Block:
+
+630=Garantierte Wiederherstellung von WinZIP-Archiven statt Klar-Text-Attacke nutzen
+631=Garantierte WinZip-Entschlüsselung ist angefangen...
+632=WinZip-Entschlüsselung wird ausgeführt,
+633=Stufe %d/%d
+634=Versuch #
+636=Garantierte WinZip-Wiederherstellung
+637=Note: that file has been created with WinZip; you can select "Guaranteed WinZip Recovery" to decrypt the file in a matter of minutes (sometimes a few hours) regardless of the password length and complexity.
+638=Entschuldigung, garantierte WinZip-Entschlüsselung ist auf die Datei nicht verwendbar. Siehe Hilfe-Datei.
+639=Die Stufung der garantierte WinZip-Entschlüsselung kann nicht gespeichert werden. Möchten Sie trotzdem es beenden?
+
+650=Brute-Force-Attacke ist angefangen...
+651=Maske-Attacke ist angefangen...
+652="%s"-Datei ist offen.
+
+660=WARNUNG: wegen der Testversion-Beschränkungen sind nur %d aus %d Seiten entschlüsselt.
+661=Während der Entschlüsselung wurde(n) %d Format-Fehler ignoriert. Die Ausgabedatei kann inkomplett sein.
+662=Dokument-Entschlüsselung-Fehler %d.
+663=Methode: %s.
+664=Unbekannte Methode
+665=Das Dokument wurde mit '%s' erstellt.\r\nDiese Methode ist nicht unterstützt.
+666=Kann Dokument nicht öffnen, Fehler %d
+
+667=Alle Schlüssel
+668=Durchschnittliche Geschwindigkeit (Schlüssel pro Sekunde)
+
+670=Nutze Kode für 
+671=Nicht-MMX-Prozessoren
+672=Intel PII/PIII/Celeron
+673=AMD Athlon
+
+; 15/07/2002
+680=Passwort aus Schlüssel
+681='Passwort aus Schlüssel'-Attacke anfangen...
+682=Mindestens einer der Schlüssel ist falsch (überprüfen Sie 'Klar-Text'-Tab).
+683=Schlüssel: [ %08x %08x %08x ]
+684=Die erste sechs Symbole des 'Starte von'-Passworts spielen keine Rolle für diese Attacke.
+685=ist ein gültiges Passwort für diese Schlüssel
+686=Diese Attacke ist nur in der registrierte Version von %PROG_NAME% verfügbar!
+687=WZ_Stage%d: Versuch %02x
+688=GUAWZ: ein klinischer Fall. Die Attacke kann erfolglos sein, siehe Hilfe-Datei.
+689=Achtung: Archive, die mit Winzip 8.1 und höher erstellt wurden lassen sich mit dieser Attacke nicht wiederherstellen.
+
+; 18/07/2002
+690=Intel P4 SSE2
+691=Der ausgewählte Befehlsatz kann auf diesem Prozessor nicht ausgeführt.
+
+; 23/07/2002
+692=Unterstützung der ACE 2.0-Archive wurde entfernt.\r\nMehr Info in Hilfe-Datei.
+693=Unbekannte Fehler beim Datei-Öffnen. Wenden Sie sich bitte an technische Unterstützung.
+
+; 20/02/2002
+694=Nicht genug Speicher
+695=%PROG_NAME% unterstützt keine Mehrdatenträger-Archive.
+
+622=Entschlüsselung-Fehler #%d.
+
+; 18/05/2004
+696=Maske von Prozessoren benutzen
+697=Schlüssel dieser Datei 
+
+700=Vollversion bestellen
+701=RegistrierungsCode eingeben
+702=Abbrechen
+703=%PROG_NAME% bestellen
+704=Sie können eine Vollversion von %PROG_NAME% jetzt kaufen, online oder offline -- klicken Sie einfach auf "Vollversion bestellen"-Taste.\r\nDie Lieferung erfolgt durch Übersendung des Registrierungscodes (dieser wandelt die Testversion in eine voll funktionsfähige Version um) per E-Mail, sofort nachdem Ihre Zahlung eingegangen ist und verifiziert wurde – bei Online-Zahlungen per Kreditkarte dauert das normalerweise nur ein paar Minuten. Wir akzeptieren alle gängige Kreditkarten (online, per Telefon oder Fax), per Scheck/Zahlungsanweisung oder per Banküberweisung. Das Bestellformular ist auf dem sicheren Server, und Ihre vertrauliche Informationen bleiben vertraulich.
+705=Die von Ihnen ausgewählte Funktion ist in der Testversion von %PROG_NAME% nicht verfügbar.
+706=Die ausgewählte Passwortlänge überschreitet Testversion-Beschränkungen.
+707=Alle Beschränkungen wurden entfernt.\r\nWARNUNG: wegen der Testversion-Beschränkungen sind nur %d aus %d Seiten in die Ausgabedatei geschrieben.\r\nBestellen Sie bitte eine Vollversion, um das ganzes Dokument zu entschlüsseln.
+
+; 28/03/2005
+708=Sie benutzen eine kostenlose Testversion von %PROG_NAME%, die einige Beschränkungen hat (sehen Sie Hilfe-Datei). Wenn Sie schon %PROG_NAME% getestet haben und sind sicher, dass das Programm mit Ihren Dateien arbeitet, drücken Sie bitte "%s", um Ihre Bestellung zu platzieren. Als Ihre Bestellung bearbeitet wurde und Sie einen RegistrierungsCode bekommen haben, drücken Sie "%s"-Taste, um diese Testversion in eine Vollversion zu konvertieren.
+709=Alle Beschränkungen wurden entfernt.\r\nWARNuNG: wegen der Testversion-Beschränkungen sind nur %d aus %d Seiten in die Ausgabedatei geschrieben.
+710=Entschuldigung, kann (.chm) Hilfe-Dateien auf diesem Computer nicht zeigen.
+
+; 19/09/2005
+711=Klar-Text-Attacke ist hier nicht verwendbar
+
+; 28/12/2005
+712=Dieses Archiv wurde mit solcher ZIP-Version erstellt, die nur in ARCHPR (Advanced Archive Password Recovery) unterstützt ist,aber nicht in AZPR.
+713=Mehr Info
+
+; 07/02/2007
+720=&Datei
+721=&Öffne Datei
+722=Öffne &Projekt
+723=&Projekt speichern
+724=Projekt speichern &als ...
+725=Be&enden
+726=&Wiederherstellung
+727=&Start
+728=S&top
+729=&Hilfe
+730=&Hilfe-Inhalt
+731=&Unterstützung
+732=%PROG_NAME% im &Internet
+733=&Frequently Asked Questions
+734=&Bug melden
+735=Neue &Funktion empfehlen
+736=Andere Unterstützung-&Optionen
+737=Auf &Updates überprüfen
+738=&Vollversion bekommen
+739=&Aktualisieren
+740=&Über
+741=Alle unterstützte Dateien (*.%PROG_EXT%, *.%PROG_NAME_EXT%)|*.%PROG_EXT%;*.%PROG_NAME_EXT%|%PROG_EXTU% Dateien (*.%PROG_EXT%)|*.%PROG_EXT%|%PROG_NAME% Status-Dateien (*.%PROG_NAME_EXT%)|*.%PROG_NAME_EXT%|Alle Dateien (*.*)|*.*
+
+742=Vorkonfigurierte Hash-Tabellen nutzen
+743=Hash-Ordner des Nutzers auswählen...
+744=Kaufen
+745=Aktualisieren
+746=%PROG_NAME% kaufen
+747=%PROG_NAME% aktualisieren
+748=Kann den  Status dieser Attacke nicht speichern. Möchten Sie sie trotzdem beenden?
+749=Rainbow-Attacke wird angefangen...
+750=Rainbow-Tabellen werden geladen...
+751=Kann Rainbow-Tabellen auf diesem Pfad nicht finden
+752=Suche nach Rainbow-Tabellen ...
+753=Datename ist nicht eingegeben.
+754=Kann die Datei nicht finden.
+755=Geben Sie RegistrierungsCode ein ...
+756=WARNUNG: wegen der Lizenzbeschränkungen sind nur %d aus %d Seiten entschlüsselt.
+757=Kann RegDLL nicht laden!
+758=Entschlüsselung ...
+759=Bearbeite Seite %d aus %d
+760=Bearbeite Objekt %d aus %d
+761=Wählen Sie bitte den Ordner von vorkonfigurierten Hash-Tabellen
+
+; 29/05/07
+762=Neue Version - %s ist zum Laden verfügbar.\nMöchten Sie ElcomSoft-Webseite besuchen und die neue Version laden?
+
+; 09/08/07
+770=Befehlszeile wird analysiert...
+771=Quellpfad ist: 
+772=Versuche die Datei '%s' in '%s' zu dechiffrieren...
+773=Batchbearbeitung ist fertig
+774=Backup-Kopien von Dateien werden erstellt 
+775=Alle Dateien werden ohne Backup-Kopien konvertiert
+776=Sie werden nach Passwort gefragt wenn es nötig ist
+777=Dateien mit ungültigem Passwort werden ignoriert
+778=Batchbearbeitung wurde von der Befehlszeile aktiviert
+779=Kann Backup-Kopie nicht erstellen. Datei wurde ignoriert.
+780=Das eingegebene Passwort ist gültig für diese Datei
+781=Passwort '%s' wird für Entschlüsselung benutzt
+782=Quellpfad wurde nicht gefunden
+783=Für diese Operation muss der Ergebnisspfad festgestellt werden
+784=Fehler beim Lesen der Dateiliste
+785=Ergebnisspfad ist ungültig
+786=Batchbearbeitung wurde vom Nutzer beendet
+787=Befehlszeile-Optionen sind nur in der registrierte Version verfügbar
+788=Log-Datei ist: %s
+789=Kann die Dokumente mit nichtstandardisiertem Filter nicht entschlüsseln
+790=Fehler %d während der Entschlüsselung: %s
+791=Kein gültiges Passwort für diese Datei. Ignoriert.
+792=Kann das "Nur-Lese"-Dateiattribut nicht entfernen.
+793=Dokument ist erfolgreich entschlüsselt.
+794=Dokument ist nicht entschlüsselt.
+
+; 25/09/07
+795=Rainbow Attack gescheitert, Fehler %d
+796=Regenbogentabellen-Suche wird geliefert, Phase 2…
+
+; 10/10/07
+797=Attacke starten wenn die Datei ausgewählt wird
+798=Dieses Dokument enthält mehrere Objekte, die gelöscht werden können. Wählen Sie bitte die Objekte, die Sie löschen möchten:
+799=JScript-Code
+800=Digitale Unterschriften
+801=Form Felder
+802=Dieses Dokument hat starke Verschlüsselung, deshalb kann das Passwort nicht sofort wiederhergestellt werden. Wenn Sie das Passwort kennen, drücken Sie es bitte unten (das Programm wird die Datei entschlüsseln, das Passwort und alle mögliche Einschränkungen entfernend); anderenfalls, wählen Sie bitte entsprechende Attacke-Optionen und klicken „Wiederherstellung starten“.
+803=*Anmerkung: diese Datei kann mit “Schlüssel-Suche” Attacke entschlüsselt werden (garantiert)
+804=Wiederherstellung starten
+805=Passwort:
+
+; 23/01/08
+674=Intel Core/Core2
+806=Passwort Überprüfung
+807=Unmöglich den Angriff jetzt abbrechen, warten Sie bitte eine Weile...
+
+; 09/04/08
+808=Es ist nicht zu empfehlen, Hash-Tabellen direkt von DVD zu benutzen,\r\nwegen ihrer schlechten Leistung. Wir beraten, die Daten von DVD\r\nnach USB Flash Drive zu übertragen, oder mindestens nach dem Festplattenspeichern.\r\nFür mehr Informationen siehe Dokumentation.
+809=Passwort zur Dechiffrierung
+
+; 15/10/08
+810=Dechiffrierung, %d%% fertig
+811=Vom Benutzer abgebrochen
+812=Abbrechen
+
+; 24/11/08
+813=Fehler [ %d %s] während des SMP/GPU Angriffs
+814=GPU-Manager
+
+; End of message file
