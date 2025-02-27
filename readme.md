@@ -9,5 +9,9 @@
 <li>
 3.ctf_decrypt_tool.rar：随波逐流CTF编码工具；<br>
 </li>
+<li>
+4.010_Editor_All_Versions_For_Windows_CracKed.zip：010editor破解程序，只需要将破解程序复制到安装目录，重启010editor即可。010editor官网：https://www.sweetscape.com/download/010editor；
+<br>
+</li>
 <ul>
 
