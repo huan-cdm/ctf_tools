@@ -13,5 +13,8 @@
 4.010_Editor_All_Versions_For_Windows_CracKed.zip：010editor破解程序，只需要将破解程序复制到安装目录，重启010editor即可。010editor官网：https://www.sweetscape.com/download/010editor；
 <br>
 </li>
+<li>
+5.在线16进制字符串转文件工具：https://tool.hiofd.com/hex-convert-file-online/；<br>
+</li>
 <ul>
 
