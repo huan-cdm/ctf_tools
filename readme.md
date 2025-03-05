@@ -16,5 +16,8 @@
 <li>
 5.在线16进制字符串转文件工具：https://tool.hiofd.com/hex-convert-file-online/；<br>
 </li>
+<li>
+6.在线base64解码，可生成图片：https://the-x.cn/encodings/Base64.aspx/；<br>
+</li>
 <ul>
 
