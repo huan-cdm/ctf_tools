@@ -10,17 +10,17 @@
 3.ctf_decrypt_tool.rar：随波逐流CTF编码工具；<br>
 </li>
 <li>
-4.010_Editor_All_Versions_For_Windows_CracKed.zip：010editor破解程序，只需要将破解程序复制到安装目录，重启010editor即可。010editor官网：https://www.sweetscape.com/download/010editor；
+4.010_Editor_All_Versions_For_Windows_CracKed.zip：010editor破解程序，只需要将破解程序复制到安装目录，重启010editor即可。010editor官网：https://www.sweetscape.com/download/010edit
 <br>
 </li>
 <li>
-5.在线16进制字符串转文件工具：https://tool.hiofd.com/hex-convert-file-online/；<br>
+5.在线16进制字符串转文件工具：https://tool.hiofd.com/hex-convert-file-online/<br>
 </li>
 <li>
-6.在线base64解码，可生成图片：https://the-x.cn/encodings/Base64.aspx/；<br>
+6.在线base64解码，可生成图片：https://the-x.cn/encodings/Base64.aspx/<br>
 </li>
 <li>
-7.JS颜文字加密的密文（AAEncode编码）:https://www.a.tools/Tool.php?Id=174/；<br>
+7.JS颜文字加密的密文（AAEncode编码）:https://www.a.tools/Tool.php?Id=174<br>
 </li>
 <ul>
 
