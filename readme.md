@@ -19,5 +19,8 @@
 <li>
 6.在线base64解码，可生成图片：https://the-x.cn/encodings/Base64.aspx/；<br>
 </li>
+<li>
+7.JS颜文字加密的密文（AAEncode编码）:https://www.a.tools/Tool.php?Id=174/；<br>
+</li>
 <ul>
 
