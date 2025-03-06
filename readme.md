@@ -22,5 +22,8 @@
 <li>
 7.JS颜文字加密的密文（AAEncode编码）:https://www.a.tools/Tool.php?Id=174<br>
 </li>
+<li>
+8.在线常用进制转换：https://www.sojson.com/hexconvert/16to10.html<br>
+</li>
 <ul>
 
