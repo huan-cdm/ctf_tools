@@ -34,5 +34,8 @@
 <li>
 11.Audacity多轨音频编辑器：https://github.com/audacity/audacity/<br>
 </li>
+<li>
+12.alternatestreamview-x64.zip：NTFS数据流检查工具，官方下载链接：https://www.nirsoft.net/utils/alternate_data_streams.html<br>
+</li>
 <ul>
 
