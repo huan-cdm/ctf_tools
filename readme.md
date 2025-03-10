@@ -37,5 +37,8 @@
 <li>
 12.alternatestreamview-x64.zip：NTFS数据流检查工具，官方下载链接：https://www.nirsoft.net/utils/alternate_data_streams.html<br>
 </li>
+<li>
+13.NtfsStreamsEditor.zip：NTFS数据流检查工具<br>
+</li>
 <ul>
 
