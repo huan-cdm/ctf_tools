@@ -40,5 +40,8 @@
 <li>
 13.NtfsStreamsEditor.zip：NTFS数据流检查工具<br>
 </li>
+<li>
+14.在线二维码识别工具：https://uutool.cn/qrcode-decode/<br>
+</li>
 <ul>
 
