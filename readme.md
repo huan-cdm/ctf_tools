@@ -43,5 +43,11 @@
 <li>
 14.在线二维码识别工具：https://uutool.cn/qrcode-decode/<br>
 </li>
+<li>
+15.steghide隐写工具：https://sourceforge.net/projects/steghide/<br>
+</li>
+<li>
+16.binwalk和foremost：文件分析和提取工具，通过apt-get安装<br>
+</li>
 <ul>
 
