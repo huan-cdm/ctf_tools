@@ -49,5 +49,8 @@
 <li>
 16.binwalk和foremost：文件分析和提取工具，通过apt-get安装<br>
 </li>
+<li>
+17.mimikatz windows密码抓取工具：https://github.com/gentilkiwi/mimikatz/<br>
+</li>
 <ul>
 
