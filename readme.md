@@ -52,5 +52,8 @@
 <li>
 17.mimikatz windows密码抓取工具：https://github.com/gentilkiwi/mimikatz/<br>
 </li>
+<li>
+18.VeraCrypt磁盘挂载工具：https://sourceforge.net/projects/veracrypt/<br>
+</li>
 <ul>
 
