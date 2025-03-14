@@ -55,5 +55,8 @@
 <li>
 18.VeraCrypt磁盘挂载工具：https://sourceforge.net/projects/veracrypt/<br>
 </li>
+<li>
+19.QR_Research_V1.0.rar：二维码扫描识别工具<br>
+</li>
 <ul>
 
