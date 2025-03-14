@@ -58,5 +58,8 @@
 <li>
 19.QR_Research_V1.0.rar：二维码扫描识别工具<br>
 </li>
+<li>
+20.identify：CTF时间隐写工具，apt install graphicsmagick-imagemagick-compat命令安装，用法：identify -format '%T' flag.gif<br>
+</li>
 <ul>
 
