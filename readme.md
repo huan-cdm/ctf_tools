@@ -61,5 +61,8 @@
 <li>
 20.identify：CTF时间隐写工具，apt install graphicsmagick-imagemagick-compat命令安装，用法：identify -format '%T' flag.gif<br>
 </li>
+<li>
+21.在线二进制转ASCII：https://coding.tools/cn/binary-to-text<br>
+</li>
 <ul>
 
