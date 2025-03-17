@@ -64,5 +64,8 @@
 <li>
 21.在线二进制转ASCII：https://coding.tools/cn/binary-to-text<br>
 </li>
+<li>
+22.火狐浏览器密码解密工具：https://github.com/lclevy/firepwd<br>
+</li>
 <ul>
 
