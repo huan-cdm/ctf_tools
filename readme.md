@@ -70,5 +70,8 @@
 <li>
 23.apk反编译工具：https://github.com/skylot/jadx<br>
 </li>
+<li>
+24.新约佛论禅编码：http://hi.pcmoe.net/buddha.html<br>
+</li>
 <ul>
 
