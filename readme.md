@@ -80,7 +80,10 @@
 26.encrypto：文件加解密工具，下载地址：https://macpaw.com/encrypto<br>
 </li>
 <li>
-27.autokey.zip：古典密码<br>
+27.autokey.zip：古典密码autokey解密<br>
+</li>
+<li>
+28.alphuck 在线工具：https://www.w3cschool.cn/tryrun/runcode?lang=alphuck<br>
 </li>
 <ul>
 
