@@ -76,5 +76,11 @@
 <li>
 25.摩尔斯电码转英文字母：http://www.zhongguosou.com/zonghe/moersicodeconverter.aspx<br>
 </li>
+<li>
+26.encrypto：文件加解密工具，下载地址：https://macpaw.com/encrypto<br>
+</li>
+<li>
+27.autokey.zip：古典密码<br>
+</li>
 <ul>
 
