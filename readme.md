@@ -73,5 +73,8 @@
 <li>
 24.新约佛论禅编码：http://hi.pcmoe.net/buddha.html<br>
 </li>
+<li>
+25.摩尔斯电码转英文字母：http://www.zhongguosou.com/zonghe/moersicodeconverter.aspx<br>
+</li>
 <ul>
 
