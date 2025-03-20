@@ -91,5 +91,8 @@
 <li>
 30.在线盲文解密网站：https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=mangwen<br>
 </li>
+<li>
+31.dtmf2num.zip：拨号音识别工具<br>
+</li>
 <ul>
 
