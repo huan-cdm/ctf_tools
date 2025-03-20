@@ -88,5 +88,8 @@
 <li>
 29.exiftool：ExifTool是一款免费开源的图像信息查看工具，一个命令行应用程序。可用于读写和编辑图像（主要）、音视频和PDF等文件的元数据（metadata）。安装命令：apt install libimage-exiftool-perl命令安装。用法：exiftool * | grep flag<br>
 </li>
+<li>
+30.在线盲文解密网站：https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=mangwen<br>
+</li>
 <ul>
 
