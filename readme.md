@@ -94,5 +94,8 @@
 <li>
 31.dtmf2num.zip：拨号音识别工具<br>
 </li>
+<li>
+32.Logo解释器：https://www.calormen.com/jslogo/<br>
+</li>
 <ul>
 
