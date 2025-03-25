@@ -116,4 +116,7 @@
 <li>
 21.微信PC版DAT文件解密工具V0.5：https://lindi.cc/wp-content/uploads/2020/12/WXDatConvterV05.rar<br>
 </li>
+<li>
+22.bandizip一个强大的多功能压缩文件管理工具：https://bandizip.weixixinxi.cn/index.html?bd_vid=8037554828489017687<br>
+</li>
 </ul>
