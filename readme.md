@@ -113,4 +113,7 @@
 <li>
 20.USB键盘流量包取证工具：https://github.com/WangYihang/UsbKeyboardDataHacker<br>
 </li>
+<li>
+21.微信PC版DAT文件解密工具V0.5：https://lindi.cc/wp-content/uploads/2020/12/WXDatConvterV05.rar<br>
+</li>
 </ul>
