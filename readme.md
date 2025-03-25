@@ -110,4 +110,7 @@
 <li>
 19.Logo解释器：https://www.calormen.com/jslogo/<br>
 </li>
+<li>
+20.USB键盘流量包取证工具：https://github.com/WangYihang/UsbKeyboardDataHacker<br>
+</li>
 </ul>
