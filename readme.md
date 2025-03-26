@@ -128,4 +128,7 @@
 <li>
 23.在线凯撒密码加密解密：https://www.lddgo.net/encrypt/caesar-cipher<br>
 </li>
+<li>
+24.brainfuck在线解密网站：https://www.w3cschool.cn/tryrun/runcode?lang=brainfuck<br>
+</li>
 </ul>
