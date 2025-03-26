@@ -39,6 +39,9 @@
 <li>
 12.exiftool：ExifTool是一款免费开源的图像信息查看工具，一个命令行应用程序。可用于读写和编辑图像（主要）、音视频和PDF等文件的元数据（metadata）。安装命令：apt install libimage-exiftool-perl命令安装。用法：exiftool * | grep flag<br>
 </li>
+<li>
+13.base64 steganography.zip：base64隐写解密工具<br>
+</li>
 </ul>
 
 
