@@ -42,6 +42,9 @@
 <li>
 13.base64 steganography.zip：base64隐写解密工具<br>
 </li>
+<li>
+14.pic_framing.zip：Gif文件分帧脚本<br>
+</li>
 </ul>
 
 
