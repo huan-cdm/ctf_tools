@@ -45,6 +45,9 @@
 <li>
 14.pic_framing.zip：Gif文件分帧脚本<br>
 </li>
+<li>
+15.brute_png_crc.zip：图片宽高爆破脚本，自动识别CRC值<br>
+</li>
 </ul>
 
 
