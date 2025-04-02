@@ -137,4 +137,10 @@
 <li>
 25. 零宽度字符的 Unicode 隐写术：https://330k.github.io/misc_tools/unicode_steganography.html<br>
 </li>
+<li>
+26.aes在线解密：https://www.jijie.ink/tool/aes<br>
+</li>
+<li>
+27.SilentEye图片音频隐写工具：https://sourceforge.net/projects/silenteye/<br>
+</li>
 </ul>
