@@ -146,4 +146,10 @@
 <li>
 28.python字节码文件.pyc反编译成.py文件：https://github.com/zrax/pycdc.git<br>
 </li>
+<li>
+29.在线python字节码文件.pyc反编译成.py文件：https://tool.lu/pyc/<br>
+</li>
+<li>
+30.pyc文件隐写工具Stegosaurus：https://github.com/AngelKitty/stegosaurus<br>
+</li>
 </ul>
