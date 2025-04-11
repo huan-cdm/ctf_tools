@@ -143,4 +143,7 @@
 <li>
 27.SilentEye图片音频隐写工具：https://sourceforge.net/projects/silenteye/<br>
 </li>
+<li>
+28.python字节码文件.pyc反编译成.py文件：https://github.com/zrax/pycdc.git<br>
+</li>
 </ul>
