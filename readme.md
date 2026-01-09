@@ -153,3 +153,7 @@
 30.pyc文件隐写工具Stegosaurus：https://github.com/AngelKitty/stegosaurus<br>
 </li>
 </ul>
+
+<h2>图片：</h2>
+盲文对照表<br>
+<img src="https://github.com/huan-cdm/ctf_tools/blob/main/images/Braille_com_parison%20table.png" />
